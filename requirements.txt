@@ -3,4 +3,3 @@ huggingface_hub
 numpy<2.0
 datasets
 GlotScript
-gcld3
