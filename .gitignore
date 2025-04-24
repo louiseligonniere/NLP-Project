@@ -1,6 +1,3 @@
-# Project specific
-lid.176.ftz
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
