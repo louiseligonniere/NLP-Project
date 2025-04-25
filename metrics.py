@@ -47,17 +47,3 @@ def compute_f1_false_positive(data):
     
     return result_df
 
-# Example data (replace this with your actual data)
-data = {
-    'sentence': ['This is sentence 1', 'Une autre phrase', 'Phrase numéro trois'],
-    'iso_script': ['eng_Latn', 'fra_Latn', 'spa_Latn'],  # Assuming this is the true label
-    'top_pred': ['eng_Latn', 'eng_Latn', 'fas_Arab']  # Predicted language labels
-}
-
-df_2 = pd.DataFrame(data)
-
-# Compute F1, Recall, Precision scores and false positive rate
-result_df = compute_f1_false_positive(df_2)
-
-print("Result DataFrame:")
-print(result_df)

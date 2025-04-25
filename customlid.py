@@ -63,16 +63,3 @@ class CustomLID:
 
         return tuple(top_k_labels), top_k_probs
 
-
-
-# download model
-## cache_dir: path to the folder where the downloaded model will be stored/cached.
-model_path = hf_hub_download(repo_id="cis-lmu/glotlid", filename="model.bin", cache_dir=None)
-
-
-# to make sure these languages are available in GlotLID check the list of supported labels in model.labels
-limited_languages = ['__label__eng_Latn', '__label__arb_Arab', '__label__rus_Cyrl', '__label__por_Latn', '__label__pol_Latn', '__label__hin_Deva']
-
-model = CustomLID(model_path, languages = limited_languages , mode='before')
-
-print(model.predict("Hello, world!", 3))
