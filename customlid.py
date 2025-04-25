@@ -75,4 +75,4 @@ limited_languages = ['__label__eng_Latn', '__label__arb_Arab', '__label__rus_Cyr
 
 model = CustomLID(model_path, languages = limited_languages , mode='before')
 
-model.predict("Hello, world!", 3)
+print(model.predict("Hello, world!", 3))
