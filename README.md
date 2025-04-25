@@ -10,3 +10,5 @@ Language identification for low-resource languages is a key issue for NLP models
 **Test data:** https://huggingface.co/datasets/cis-lmu/udhr-lid
 
 **Baseline model:** https://huggingface.co/laurievb/OpenLID
+
+**The project report is accessible on the following link:** https://drive.google.com/file/d/1WMBRFOGpNxYtwH1jvW5MGvD7TG0mREqS/view?usp=sharing
